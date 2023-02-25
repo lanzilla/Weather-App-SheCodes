@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/b8496119b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background">
+        <header>
+          <form class="searchheader" id="citySearch">
+            <div class="citysearch">
+              <input
+                type="search"
+                class="form-control"
+                id="city-input"
+                placeholder="City Search"
+              />
+            </div>
+            <div class="searchbutton">
+              <button type="search" class="btn btn-primary mb-2">Search</button>
+            </div>
+            <div class="currentlocationbutton">
+              <button type="currentLocationButton" class="btn btn-primary mb-2" id="currentLocationButton">Current Location</button>
+            </div>
+          </form>
+        </header>
+        <section>
+          <div class="row text-center">
+            <div class="col-4">
+              <i class="fa-solid fa-cloud-sun"></i>
+            </div>
+            <div class="col-4">
+              <ul>
+                <li>
+                    <span class="city" id="city"</span>
+                </li>
+                <li id="date"></li> <br>
+                <li id="description">
+                </li><br>
+                <li>
+                  <span class="temperature" id="temperature"</span>
+                  <span class ="unit">°C
+                </li> <br>
+                <li>
+                    Humidity:<span id="Humidity"</span>%</li> <br>
+                <li>
+                  Wind:<span id="Wind"</span>km/h</li>
+              </div>
+            </div>
+        </section>
+        <H3>
+          <strong>5 day forecast</strong>
+        </H3>
+          <p>
+           <ul>
+             <li>
+            <div class="card" style="width: 11rem; style;">
+                <div class="card-header">
+                  Wed: Jan 25
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Min: 11°c</li>
+                  <li class="list-group-item">Max: 22°c</li>
+                  <li class="list-group-item">Chance of rain: 20%</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="card" style="width: 11rem;">
+                  <div class="card-header">
+                    Thurs: Jan 26
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Min: 14°c</li>
+                    <li class="list-group-item">Max: 28°c</li>
+                    <li class="list-group-item">Chance of rain: 20%</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="card" style="width: 11rem;">
+                    <div class="card-header">
+                      Fri: Jan 27
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Min: 15°c</li>
+                      <li class="list-group-item">Max: 33°c</li>
+                      <li class="list-group-item">Chance of rain: 40%</li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="card" style="width: 11rem;">
+                      <div class="card-header">
+                        Sat: Jan 28
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Min: 18°c</li>
+                        <li class="list-group-item">Max: 33°c</li>
+                        <li class="list-group-item">Chance of rain: 80%</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card" style="width: 11rem;">
+                        <div class="card-header">
+                          Sun: Jan 29
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Min: 12°c</li>
+                          <li class="list-group-item">Max: 25°c</li>
+                          <li class="list-group-item">Chance of rain: 40%</li>
+                        </ul>
+                      </div>
+                    </li>
+                </ul>
+              </p> 
+        <script src="src/index.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

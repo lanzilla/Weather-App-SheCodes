@@ -1,0 +1,81 @@
+.background {
+  background: #bbe4e970;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  width: 980px;
+  height: 720px;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn {
+  color: black;
+  background: #79c2d0;
+  border: #53a8b6;
+  width: 400px;
+}
+.btn:hover {
+  transition: 200ms ease-in-out;
+  background: #53a8b6;
+}
+.citysearch {
+  width: 400px;
+  padding-bottom: 5px;
+}
+.searchheader {
+  padding-top: 30px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-cloud-sun {
+  font-size: 120px;
+  padding-left: 140px;
+  padding-top: 35px;
+}
+.row {
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 25px;
+}
+.city {
+  font-size: 30px;
+  font-weight: bold;
+}
+.temperature {
+  font-size: 50px;
+  font-weight: bold;
+}
+h3 {
+  font-size: large;
+  padding-left: 120px;
+  text-decoration: underline;
+  padding-left: 40px;
+}
+.card-header {
+  background: #79c2d0;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+.date {
+  display: block;
+}
+.list-group-item {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: #5585b5;
+}
+a:hover {
+  color: #79c2d0;
+}
+.unit {
+  vertical-align: top;
+}
