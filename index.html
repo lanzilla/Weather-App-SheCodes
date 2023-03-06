@@ -38,14 +38,6 @@
           </form>
         </header>
         <h1 id="city"></h1>
-        <p>
-            <ul>
-                <li>Last updated: <span id="date"></span></li> <br>
-                <li id="description" ></li><br>
-                <li>Humidity:<span id="Humidity"></span></li><br>
-                <li>Wind:<span id="Wind"></span></li>
-            </ul>
-        </p>
         <section>
           <div class="row text-center">
             <div class="col-12">
@@ -57,10 +49,20 @@
               />
             <div class="temperature">
                 <strong id="temperature"></strong>
-                  <span class ="unit"> | <a href="#">°F</a></span>
+                  <span class ="unit"> 
+                    <a href="#" id="celsius-link">°C</a></span> |
+                    <a href="#" id="fahrenheit-link">°F</a></span>
             </div>
             </div>
         </section>
+         <p>
+            <ul>
+                <li id="description" ></li><br>
+                <li>Humidity:<span id="Humidity"></span></li><br>
+                <li>Wind:<span id="Wind"></span></li><br>
+                <li>Last updated: <span id="date"></span></li>
+            </ul>
+        </p>
         <H3>
           <strong>5 day forecast</strong>
         </H3>

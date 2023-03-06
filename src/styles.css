@@ -4,7 +4,7 @@
   margin: auto;
   border-radius: 10px;
   width: 980px;
-  height: 790px;
+  height: 750px;
   font-family: "Courier New", Courier, monospace;
 }
 .btn {
@@ -22,7 +22,7 @@
   padding-bottom: 5px;
 }
 .searchheader {
-  padding-top: 30px;
+  padding-top: 10px;
   margin: 0 auto;
 }
 header {
@@ -44,7 +44,7 @@ h1 {
   font-weight: bold;
 }
 .temperature {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
 }
 h3 {
