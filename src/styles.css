@@ -4,7 +4,7 @@
   margin: auto;
   border-radius: 10px;
   width: 980px;
-  height: 750px;
+  height: 660px;
   font-family: "Courier New", Courier, monospace;
 }
 .btn {
@@ -85,4 +85,5 @@ section {
 }
 .weather-forecast {
   text-align: center;
+  padding-top: 20px;
 }
